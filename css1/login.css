@@ -1,0 +1,230 @@
+@charset "UTF-8";
+.clearfix:after {
+  content: '\20';
+  clear: both;
+  display: block;
+  height: 0; }
+
+.a-all {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+
+body {
+  background: white; }
+
+.header {
+  width: 1190px;
+  margin: 0 auto;
+  padding-top: 22px;
+  height: 75px; }
+  .header .logo {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 44px; }
+    .header .logo h1 {
+      display: block;
+      float: left; }
+      .header .logo h1 .regiconfont {
+        display: block;
+        color: #ff4001;
+        font-size: 36px;
+        font-weight: 400; }
+      .header .logo h1 .regicon1 {
+        position: relative; }
+      .header .logo h1 .regicon2 {
+        font-size: 50px;
+        position: relative;
+        top: -43px; }
+  .header .allmsg {
+    line-height: 16px;
+    padding: 6px 10px;
+    overflow: hidden;
+    background: #fef2f2;
+    border: 1px solid;
+    border-color: #ffb4a8;
+    background-color: #fef2f2;
+    color: #6C6C6C;
+    text-align: center;
+    width: 880px;
+    margin: 0 auto; }
+  .header .suggset {
+    display: block;
+    float: right;
+    line-height: 44px;
+    color: #666;
+    font-size: 12px; }
+    .header .suggset .lgiconfont {
+      color: #f40; }
+    .header .suggset:hover {
+      color: #f40; }
+
+.content {
+  width: 100%;
+  height: 600px;
+  background: url(../images/lg-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .content .conbox {
+    width: 1200px;
+    margin: 0 auto; }
+  .content .conleft a {
+    display: block;
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 100px; }
+  .content .conright {
+    width: 350px;
+    height: 350px;
+    float: right;
+    padding-top: 120px;
+    padding-right: 60px;
+    position: relative; }
+    .content .conright .swaplogin {
+      position: absolute; }
+
+.loginbox {
+  padding: 25px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9); }
+  .loginbox .wrongtips {
+    line-height: 16px;
+    padding: 6px 10px;
+    overflow: hidden;
+    width: 278px;
+    background-color: #fef2f2;
+    color: #6C6C6C;
+    border: 1px solid #ffb4a8;
+    position: absolute; }
+    .loginbox .wrongtips .lgiconfont {
+      color: #f40;
+      padding-right: 10px;
+      float: left;
+      font-size: 16px; }
+  .loginbox .logintitle {
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-top: 9px;
+    padding-bottom: 8px;
+    font-weight: 700; }
+  .loginbox .formmsg {
+    margin-top: 20px;
+    position: relative; }
+    .loginbox .formmsg label {
+      display: block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      background: #ddd;
+      text-align: center;
+      position: absolute;
+      left: 1px;
+      top: 1px;
+      outline: 0; }
+    .loginbox .formmsg input {
+      width: 240px;
+      font-size: 14px;
+      line-height: 18px;
+      height: 18px;
+      padding: 11px 8px 11px 50px;
+      border: 1px solid #ddd; }
+    .loginbox .formmsg span {
+      font-size: 16px;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      z-index: 1000;
+      cursor: pointer; }
+      .loginbox .formmsg span .lgiconfont {
+        color: #6c6c6c; }
+  .loginbox .submit {
+    margin-top: 20px; }
+    .loginbox .submit button {
+      width: 300px;
+      height: 42px;
+      border: 0;
+      display: inline-block;
+      overflow: hidden;
+      vertical-align: middle;
+      line-height: 42px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      background: #f40;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      -ms-border-radius: 3px;
+      cursor: pointer; }
+      .loginbox .submit button:hover {
+        background-color: #f52b00; }
+  .loginbox .otherlogin {
+    margin-top: 24px;
+    line-height: 14px; }
+    .loginbox .otherlogin a {
+      display: inline-block;
+      margin-right: 24px;
+      color: #6c6c6c; }
+    .loginbox .otherlogin .weibo .lgiconfont {
+      color: #e52425; }
+    .loginbox .otherlogin .zhifubao .lgiconfont {
+      color: #1ba9ee; }
+  .loginbox .forgetAndReg {
+    margin-top: 25px;
+    overflow: hidden;
+    text-align: right; }
+    .loginbox .forgetAndReg a {
+      margin-right: 10px;
+      color: #6c6c6c; }
+      .loginbox .forgetAndReg a:hover {
+        color: #f40; }
+
+/* 底部 */
+.footer {
+  position: relative;
+  margin: 60px auto 0;
+  padding: 7px 0 9px;
+  border-top: 1px solid #ddd;
+  width: 1200px; }
+  .footer a {
+    display: inline;
+    float: left;
+    margin: 0 8px;
+    white-space: nowrap;
+    color: #6c6c6c; }
+  .footer a:hover {
+    color: #f40; }
+  .footer li {
+    float: left; }
+  .footer .footmap {
+    height: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd; }
+  .footer p {
+    display: inline-block;
+    float: left; }
+  .footer .foot-cooperate {
+    height: 20px;
+    margin-top: 10px; }
+    .footer .foot-cooperate .last-li {
+      margin-left: 30px;
+      color: #9c9c9c; }
+  .footer .foot-ft {
+    height: 20px;
+    margin-top: 10px; }
+    .footer .foot-ft li {
+      color: #9c9c9c;
+      margin: 0 8px; }
+
+/*# sourceMappingURL=login.css.map */

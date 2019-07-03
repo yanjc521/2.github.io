@@ -1,0 +1,59 @@
+/*全局*/
+*{margin:0;padding: 0;}
+ul,li{list-style: none;}
+a{color: #666666;text-decoration: none;}
+a:hover{color: #ff4400;}
+body{font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+
+/*top*/
+.list{}
+.list .list-nav{margin:0 auto; width: 1190px;line-height: 33px;height: 34px;padding:0 0 0 24px;border-bottom:1px solid red;}
+.list .list-nav ul li a{font-size: 16px;padding:1px 16px 0 16px;margin: 0 10px 0 10px;color: #333333;float:left;}
+.list .list-nav ul li a:hover{color:#ff4400;}
+.list .list-nav .zhutishichang{border-top: 1px solid red;border-left: 1px solid red;border-right:  1px solid red;margin: 0 10px -1px 10px;padding: 1px 16px 0 16px;background: #ffffff;color: red;}
+/* .list .list-nav ul li a:focus{border-top: 1px solid red;border-left: 1px solid red;border-right:  1px solid red;margin: 0 10px -1px 10px;padding: 1px 16px 0 16px;background: #ffffff;color: red;} */
+
+/* 主体部分css */
+.list .hot-tuijian{margin:0 auto;width: 1190px;height: 66px;padding:20px 0 20px 0;}
+.list .hot-tuijian ul li{float: left;}
+.list .hot-tuijian .tuijian{font-size: 16px;padding: 0 0 0 35px;width: 115px;height: 66px;line-height: 66px;float: left;}
+.list .hot-tuijian .tuijianneirong ul li a{font-size: 14px;margin: 0 10px 0 10px;}
+.list .hot-tuijian .tuijianneirong ul li{margin: 10px 0 10px 0;line-height: 14px;}
+.list .hot-tuijian .tuijianneirong{width: 1040px;height: 66px;float: left;}
+.list .hot-tuijian .tuijianneirong .spot{width: 4px;height: 4px;}
+.list .hot-tuijian .tuijianneirong .spot img{width: 4px;height: 4px;margin: 1px 1px 4px 4px;}
+
+.list .product {width: 1040px;height: 345px;margin: 0 auto;padding: 0 0 0 150px;}
+.list .product .cloth-neirong{border-top: 1px solid #f56293;padding: 5px 0 0 0;}
+.list .product .cloth-neirong .product1{width: 333px;height: 20px;padding: 5px 0 5px 0;float: left;}
+.list .product .cloth-neirong .product1 ul li{width: 48px;height: 22px;float: left;padding: 2px 0 2px 0;margin: 0 10px 0 0;}
+.list .product .cloth-neirong .product1 .product-title{font-size: 14px;color: #666666;font-weight: bold;padding: 1px 0 0 0 ;margin: 0 10px 0 0;width: 68px;height: 50px;float: left;}
+.list .product .cloth-neirong .product2{float: left;width: 333px;height: 44px;margin: 0 0 0 20px;padding: 5px 0 5px 0;}
+.list .product .cloth-neirong .product2 ul li{float: left;width: 48px;height: 22px;padding: 2px 0 2px 0;margin: 0 10px 0 0;}
+.list .product .cloth-neirong .product2 .product-title{font-size: 14px;color: #666666;font-weight: 700;padding: 1px 0 0 0 ;margin: 0 10px 0 0;height: 50px;width: 68px;}
+
+.list .product .boygirl-product{margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color: #f56293;}
+.list .product  .mother{color:#f56293;font-size: 16px;line-height: 24px;font-weight: bold;margin: 35px 0 10px 0;}
+.list .product  .bag{color:#aa72d2;font-size: 16px;line-height: 24px;font-weight: bold;margin: 35px 0 10px 0;}
+.list .product  .skin-care{color:#aa72d2;font-size: 16px;line-height: 24px;font-weight: bold;margin: 35px 0 10px 0;}
+.list .product  .food{color:#97b921;font-size: 16px;line-height: 24px;font-weight: bold;margin: 35px 0 10px 0;}
+.list .product .jewels{margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color: #f56293;}
+.list .product .building{margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#b58571;}
+.list .product .house{margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#b58571;}
+.list .product .car {margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#52a0ea;}
+.list .product .phone {margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#0dc3ce;}
+.list .product .work {margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#52a0ea;}
+.list .product .outdoor-sport {margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#97b921;}
+.list .product .farming {margin: 35px 0 10px 0;font-size: 16px;line-height: 24px;font-weight: bold;color:#97b921;}
+
+/* 悬浮栏css */
+
+
+
+
+
+
+
+
+
+

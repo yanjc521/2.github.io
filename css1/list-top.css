@@ -1,0 +1,86 @@
+/* 全局 */
+*{margin: 0;padding: 0;}
+ui,li{list-style: none;}
+body{font: 12px/1.5 tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;}
+a{color:#666;text-decoration: none;}
+a:hover{color: #F40;}
+
+/* top */
+.top{height: 36px;width:1903px;line-height: 36px;background:#f5f5f5 ;position: relative;z-index: 99;}
+.top .inner{width: 1190px;margin: 0 auto;}
+.top .inner .left-nav ul li{float: left;padding-right: 7px;padding-left: 6px;}
+.top .inner .right-nav ul li{float: right;padding-right: 12px;}
+.top .inner .left-nav .denglu{color: #F40;}
+.top .inner .county{float: left;padding-right: 6px ;}
+.top .inner .county span{margin-right: 7px;}
+.top .inner .right-nav i{margin: 0 5px 0 0;} 
+
+.top .inner .right-nav .collect{width: 88px;height: 85px;padding: 0 6px 0 6px;float: right;display: inline-block;}
+.top .inner .right-nav .collect .collect-bag{width: 88px;height: 35px;cursor: pointer;} 
+.top .inner .right-nav .collect .collect-bag:hover{background-color: white;} 
+.top .inner .right-nav .collect:hover .collect-neirong{display: block;}
+.top .inner .right-nav .collect:hover .collect-bag{background-color: white} 
+.top .inner .right-nav .collect .collect-neirong{display: none;border-left: 1px solid #f5f5f5;border-right: 1px solid #f5f5f5;border-bottom: 1px solid #EEEEEE;width: 72px;height: 70px;padding: 0 0px ;background-color: white;}
+.top .inner .right-nav .collect .collect-neirong ul li a{} 
+.top .inner .right-nav .collect .collect-neirong ul li:hover{background-color: #f5f5f5;} 
+
+.top .inner .right-nav .mytaobao{width: 88px;height: 70px;float: right;display: inline-block;}
+.top .inner .right-nav .mytaobao:hover .mytaobao-content{display: block;}
+.top .inner .right-nav .mytaobao .mytaobao-nav{width: 80px;height: 35px;}
+.top .inner .right-nav .mytaobao:hover .mytaobao-nav{background-color: white;}
+.top .inner .right-nav .mytaobao .mytaobao-nav:hover{background-color: white;}
+.top .inner .right-nav .mytaobao .mytaobao-content{display: none;background-color: white;border-bottom: 1px solid #f5f5f5;border-left: 1px solid #f5f5f5;border-right: 1px solid #f5f5f5;width: 88px;height: 70px;margin-top: 1px;}
+.top .inner .right-nav .mytaobao .mytaobao-content ul li:hover{background-color: #f5f5f5 ;}
+.top .inner .right-nav .mytaobao .mytaobao-content a{float: left;width: 75px;}
+
+.top .inner .right-nav .wangzhan .wangzhan-connent{display: none;position: fixed;top: 36px;left: 358px;background-color: white;width: 1188px;border: 1px solid #f5f5f5;z-index: 100;} 
+.top .inner .right-nav .wangzhan .wangzhan1:hover{background-color: white;width: 101px;float: right;}
+.top .inner .right-nav .wangzhan:hover .wangzhan-connent{display: block;}
+.top .inner .right-nav .wangzhan:hover .wangzhan1{background-color: white;}
+.top .inner .right-nav .wangzhan .wangzhan-connent .wangzhan-connent1{float: left;width: 24%;border-right: 1px solid #eee;height: 200px;padding-left: 10px;}
+.top .inner .right-nav .wangzhan .wangzhan-connent .wangzhan-connent1 ul li{float: left}
+ 
+ 
+
+/* header */
+
+.header {width: 1190px;height: 130px;margin:0 auto ;padding:30px 0 0 0 ;}
+.header .taobaologo {margin: 8px 0 0 0;width: 230px;float: left;}
+.header .taobaologo img{margin: 0 0 20px 0;}
+
+/* 搜索框上面的分类搜索 */
+.header .option {width: 720px;height: 25px;float: left;}
+.header .option ul li{float: left;width:50px;height: 25px ;text-align: center;line-height: 25px;}
+/* .header .option .baobei:hover{background-color:#FFEEE5;} */
+.header .option .tianmao:focus {background-color: #F52B00;}
+.header .option .tianmao:hover{background-color:#FFEEE5;}
+.header .option .dianpu:hover{background-color:#FFEEE5;}
+.header .option .baobei{background-color: #F52B00;}
+.header .option .baobei a{color: white;font-weight: bold;}
+
+
+.header .search-box {border: 3px solid #F52B00;width: 614px;height: 34px;float: left;}
+.header .search-box .search{width: 100px;height: 40px;background-color:#F52B00 ;position: relative;top: -37px;left: 614px;cursor: pointer;text-align: center;line-height: 40px;}
+.header .ewm{width: 94px;height: 112px;border: 1px solid #EEEEEE;top: 50px;right: 250px;float: right;}
+.header .ewm img{width: 80px;height: 80px;margin: 0 0 0 8px;}
+.header .ewm .ewmfont{text-align:center;color: #FF4400;}
+.header .close{width: 20px;height: 20px;border: 1px solid #DDD;text-align: center;float: right;line-height: 20px;}
+.header .close a{color:#DDDDDD;}
+.header .close a:hover{color: #ccc;}
+.header .close:focus .ewm{display: none;}
+
+
+input{width: 614px;height: 22px;padding: 6px 0 6px 0;border-style: none;outline-style: none;}
+
+/* bottom */
+
+.bottom {margin: 0 auto;width: 1190px;margin-bottom: 20px;}
+.bottom .bottom-1{margin: 0 auto;margin-bottom: 8px   ;width: 1190px;height: 40px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;padding: 7px 0 8px 0;}
+.bottom .bottom-1 ul li {float: left;}
+.bottom .bottom-1 ul li span{margin: 0 6px  ;color: #ddd;line-height: 22px;}
+.bottom .bottom-1 ul li a{line-height: 22px;}
+.bottom .info{width: 1190px;height: 18px;margin: 0 auto;padding: 0 0 8px 0;}
+.bottom .info ul li {float: left;padding: 0 5px 0 0;}
+.bottom .info ul li span{color: #9c9c9c ;float: left;}
+.bottom .info .banquan{color: #9C9C9C;width: 350px;float: left;margin-left: 10px;}
+.bottom .bottom-1 .bottom-2{float: left;}
